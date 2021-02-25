@@ -1,9 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
 /**
  *
  * @author AQuesada
@@ -88,7 +82,7 @@ public class NewJFrame extends javax.swing.JFrame {
             //Obtener la ruta
             String ruta=File.getSelectedFile().toString();
             JOptionPane.showMessageDialog(null, ruta,
-                    "Ruta",
+                    "Ruta ruta del archivo",
                     JOptionPane.INFORMATION_MESSAGE);
         }//Fin if
     }//GEN-LAST:event_jMenuItem2ActionPerformed
